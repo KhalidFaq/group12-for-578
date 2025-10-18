@@ -88,3 +88,48 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+# --- DRAFT: bar chart of overall scores (sample values) ---
+import os, matplotlib.pyplot as plt, numpy as np
+
+os.makedirs("figures", exist_ok=True)
+
+standards = ["EU_AI_Act", "US_EO_14110", "Saudi_SDAIA"]
+overall = [3.8, 3.2, 3.5]   # sample placeholders (scale 1–5)
+
+plt.figure(figsize=(7,4))
+x = np.arange(len(standards))
+plt.bar(x, overall)
+plt.xticks(x, standards, rotation=15)
+plt.ylabel("Overall score (1–5)")
+plt.title("Draft Bar Chart — sample only")
+plt.tight_layout()
+plt.savefig("figures/bar_overall_scores_draft.png")
+plt.close()
+
+
+# --- DRAFT: heatmap of metric correlations (sample matrix) ---
+import os, matplotlib.pyplot as plt, numpy as np
+
+os.makedirs("figures", exist_ok=True)
+
+metrics = ["Transparency", "Accountability", "Privacy", "Oversight", "Fairness"]
+# symmetric 5x5 sample correlation matrix (-1..1). Diagonal = 1.
+corr = np.array([
+    [1.00, 0.55, 0.40, 0.35, 0.50],
+    [0.55, 1.00, 0.45, 0.30, 0.60],
+    [0.40, 0.45, 1.00, 0.25, 0.42],
+    [0.35, 0.30, 0.25, 1.00, 0.33],
+    [0.50, 0.60, 0.42, 0.33, 1.00],
+])
+
+plt.figure(figsize=(6,5))
+plt.imshow(corr, vmin=-1, vmax=1)
+plt.colorbar(label="Correlation")
+plt.xticks(range(len(metrics)), metrics, rotation=30, ha="right")
+plt.yticks(range(len(metrics)), metrics)
+plt.title("Draft Heatmap — sample only")
+plt.tight_layout()
+plt.savefig("figures/heatmap_metric_correlations_draft.png")
+plt.close()
