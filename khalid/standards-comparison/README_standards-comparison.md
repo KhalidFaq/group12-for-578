@@ -8,7 +8,7 @@ The goal was to get all the data, Python code, and figures working before adding
 
 # What Has Been Completed
 
-* 1. **Data**
+**1. **Data**
 - **standards.csv** lists all the metrics for each standard (numbers still empty for now).
 - **scoring_rubric.csv** explains how each metric is evaluated and benchmarked.
 
