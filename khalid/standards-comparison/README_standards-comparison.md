@@ -1,7 +1,7 @@
 
 # standards comparison — (50%)
 
-This phase focuses on building and testing the complete framework for comparing different AI and cybersecurity standards. 
+Here I focused on building and testing the complete framework for comparing different AI and cybersecurity standards. 
 The goal was to get all the data structures, Python scripts, and visualization tools working before adding the final scores and analysis.
 
 ---
