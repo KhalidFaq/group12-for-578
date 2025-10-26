@@ -1,6 +1,6 @@
-# AI Regulatory Framework Comparison (Final Summary)
+# Standards Comparison (Final Summary)
 
-This project compares how **the European Union (EU)**, **the United States (US)**, and **Saudi Arabia (SDAIA)** regulate Artificial Intelligence.  
+This part compares how **the European Union (EU)**, **the United States (US)**, and **Saudi Arabia (SDAIA)** regulate Artificial Intelligence.  
 It’s designed to simplify complex legal texts into clear insights through tables, explanations, and visual charts.
 
 ---
