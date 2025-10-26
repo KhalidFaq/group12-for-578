@@ -34,26 +34,6 @@ It’s designed to simplify complex legal texts into clear insights through tabl
 
 ---
 
-## Legal & Reference Documents
-
-| Region | Main Sources | Notes |
-|---------|---------------|-------|
-| 🇪🇺 **EU AI Act (2024)** | Articles 6, 9, 10, 14, 15, 50, 72, 99 | Enforced gradually (2024–2027); applies to all high-risk and general-purpose AI. |
-| 🇺🇸 **US Executive Order 14110 (2023)** | Sections 2, 4, 7, 8, 9, 10 | Introduced NIST AI RMF and AI Safety Institute; rescinded Jan 2025 but remains a reference. |
-| 🇸🇦 **SDAIA AI Framework (2023–2025)** | Principles 1–10 + AI Adoption Sec 3–5 + PDPL (2023) | Non-binding ethics backed by data protection and sectoral oversight. |
-
----
-
-## Summary in Simple Terms
-
-- **EU leads globally** — strict laws, high fines, and risk-based classification.  
-- **US focuses on standards** — technical excellence via NIST, limited penalties.  
-- **SDAIA emphasizes ethics** — moral, responsible AI guided by national data law.
-
-> *In short:* **EU = Regulation & Enforcement**, **US = Standards & Guidance**, **SDAIA = Ethics & Adoption.**
-
----
-
 ## Visual Outputs
 
 This project generates multiple visuals using Python (Matplotlib & Pandas):
@@ -68,7 +48,7 @@ Each visualization illustrates how each framework performs across the ten govern
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ```bash
 cd khalid/standards-comparison/python-code
